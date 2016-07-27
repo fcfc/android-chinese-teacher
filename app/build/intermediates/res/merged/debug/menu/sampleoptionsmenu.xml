@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="View" android:id="@+id/MENU_VIEW"
+        android:icon="@drawable/ic_menu_view" />
+    <item android:title="Upload" android:id="@+id/MENU_UPLOAD"
+        android:icon="@drawable/ic_menu_upload" />
+    <item android:title="Send" android:id="@+id/MENU_SEND"
+        android:icon="@drawable/ic_menu_send" />
+    <item android:title="Search" android:id="@+id/MENU_SEARCH"
+        android:icon="@drawable/ic_menu_search" />
+    <item android:title="My Location" android:id="@+id/MENU_MY_LOCATION"
+        android:icon="@drawable/ic_menu_mylocation" />
+    <item android:title="Info" android:id="@+id/MENU_INFO"
+        android:icon="@drawable/ic_menu_info_details" />
+</menu>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FFFFFF</color>
+    <string name="hello">Greetings</string>
+    <string name="app_name">ChineseTeacher</string>
+	<string name="sound">SOUND</string> 
+    <string name="menu_start">START</string> 
+    <string name="menu_stop">STOP</string>   
+    <string name="menu_pause">PAUSE</string> 
+    <string name="menu_resume">RESUME</string> 
+    <string name="menu_easy">EASY</string> 
+    <string name="menu_flashcard">FLASHCARD</string> 
+    <string name="menu_hard">HARD</string> 
+
+    
+    
+    <string name="left">&#8592;</string>
+    <string name="right">&#8594;</string>
+    <string name="up">   &#8593;   </string>
+    <string name="down">   &#8595;   </string>
+
+</resources>

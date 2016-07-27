@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/ice/Desktop/workspace/ChineseTeacher/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8301a95672f3c990bbc661e18769e64c6aaa49fd">
+        <dex dex="/home/ice/Desktop/workspace/ChineseTeacher/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_6af9d6b84e4de12a814fde836976970f5f5a1fb8.jar" />
+    </item>
+    <item
+        jar="/home/ice/Desktop/workspace/ChineseTeacher/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="0b19bd2849b07ff02e0d2dd44131ef7cdf1f2206">
+        <dex dex="/home/ice/Desktop/workspace/ChineseTeacher/app/build/intermediates/pre-dexed/debug/instant-run_36efc150dd8647847379d12294e469b92b338c29.jar" />
+    </item>
+
+</items>
