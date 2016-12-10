@@ -113,14 +113,13 @@ public class ChineseTeacher extends Activity implements View.OnClickListener {
 
         mChineseView.setOnClickListener(ChineseTeacher.this); 
         mChineseView.setOnTouchListener(gestureListener);
-        mTextView = (TextView)findViewById(R.id.frame);
+        mTextView = (TextView)findViewById(R.id.frame2);
         
         Button mainLeft = (Button) findViewById(R.id.left);
         mainLeft.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
             	mChineseView.setCharacter(ChineseView.PREVIOUS);
-            	framenum -= 1;
-            	if (framenum < 1) framenum = 50;
+            	framenum = mChineseView.getFramenum();
             	mTextView.setText(String.valueOf(framenum));
 
 
@@ -130,7 +129,7 @@ public class ChineseTeacher extends Activity implements View.OnClickListener {
         mainRight.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
             	mChineseView.setCharacter(ChineseView.NEXT);
-            	framenum += 1;
+                framenum = mChineseView.getFramenum();
             	mTextView.setText(String.valueOf(framenum));
 
             }

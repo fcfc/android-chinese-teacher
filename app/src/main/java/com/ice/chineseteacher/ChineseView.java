@@ -1,5 +1,7 @@
 package com.ice.chineseteacher;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -26,8 +28,9 @@ public class ChineseView extends View {
 
     public static final int NEXT = 1;
     public static final int PREVIOUS = 2;
-		
-    public static final int TOTALCHARS = 200;
+	public static final int NUMCHARS = 170;
+
+	public  int TOTALCHARS = 100;
     public static final boolean TIMER_OFF = false;
     public static final boolean TIMER_ON = true;
     public static boolean soundEnabled = true;
@@ -52,8 +55,9 @@ public class ChineseView extends View {
     private int mTaskIntervalInMillis = 5000;           // 5 seconds
     private long mLastBeatTime;
     private long mPassedTime;
-    private Character[] chinesechars = new Character[TOTALCHARS+2];
-    private int[] chineseIds = new int[TOTALCHARS+2];
+
+	List<Character> chinesechars = new ArrayList();
+	List<Integer> chineseIds= new ArrayList();
 
     public ChineseView(Context context, AttributeSet attrs) {
 	super(context, attrs);
@@ -84,13 +88,13 @@ public class ChineseView extends View {
 //	  TypedArray tone = res.obtainTypedArray(R.array.tones);
 //	  TypedArray pron = res.obtainTypedArray(R.array.pronunciation);
 
-	for (int i=0; i<100; i++)    {
+	for (int i=0; i<NUMCHARS; i++)    {
  	    int charId = icons.getResourceId(i, 0);
 
- 	    chinesechars[i] = new Character(unicode.getString(i), charId, null, null, null);
-            chineseIds[i] = charId;
-	     }
-
+ 	    chinesechars.add(new Character(unicode.getString(i), charId, null, null, null));
+        chineseIds.add(charId);
+	}
+     TOTALCHARS = chinesechars.size();
 	 charindex = 0;
 	 invalidate();
      }
@@ -103,14 +107,14 @@ public class ChineseView extends View {
       }
 		
     public void setCharacter(int direction) {
-	if (direction == NEXT)  {
-	    charindex += 1;
-	}
+	    if (direction == NEXT)  {
+	      charindex += 1;
+	    }
         if (direction == PREVIOUS)  {
            charindex -= 1;
         }
 
-	charindex %= TOTALCHARS;
+	    charindex %= TOTALCHARS;
         if (charindex < 0) {
            charindex = TOTALCHARS-1;
         }
@@ -136,6 +140,11 @@ public class ChineseView extends View {
 				msg.setData(b);
 				mHandler.sendMessage(msg);
 		}
+
+	public int getFramenum() {
+		return charindex;
+	}
+
 
 	boolean doKeyDown(int keyCode, KeyEvent msg) {         
 				boolean okStart = false;
@@ -168,11 +177,11 @@ public class ChineseView extends View {
 
 	Paint p=new Paint();
 	p.setFilterBitmap(true);
-	thc = chinesechars[charindex];
+	thc = chinesechars.get(charindex);
 //	thc.charImage.draw(canvas);
 
     
-        Bitmap b=BitmapFactory.decodeResource(getResources(), chineseIds[charindex]);
+        Bitmap b=BitmapFactory.decodeResource(getResources(), chineseIds.get(charindex));
         p.setColor(Color.RED);
         canvas.scale(0.6f, 0.75f);
         canvas.drawBitmap(b, 150, 60, p);
