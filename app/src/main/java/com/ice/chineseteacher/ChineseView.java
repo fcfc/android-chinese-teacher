@@ -70,10 +70,10 @@ public class ChineseView extends View {
 	mLinePaint.setARGB(255, 0, 255, 0);
 			
 	mTextPaint = new Paint();
-	mTextPaint.setColor(Color.WHITE);
+	mTextPaint.setColor(Color.BLACK);
 	mTextPaint.setTextAlign(Paint.Align.CENTER);;
 	mTextPaint.setAntiAlias(true);
-	mTextPaint.setTextSize(28);
+	mTextPaint.setTextSize(30);
 
 	mTextSmPaint = new Paint();
 	mTextSmPaint.setColor(Color.BLACK);
@@ -81,17 +81,17 @@ public class ChineseView extends View {
 	mTextSmPaint.setTextAlign(Paint.Align.CENTER);;
 
 	        
-	mframe = (TextView) findViewById(R.id.frame);
+	mframe = (TextView) findViewById(R.id.frame2);
 	TypedArray icons = res.obtainTypedArray(R.array.chargraphics);
 //	  TypedArray charname = res.obtainTypedArray(R.array.charname);
 	TypedArray unicode = res.obtainTypedArray(R.array.unicode);
-//	  TypedArray tone = res.obtainTypedArray(R.array.tones);
+	  TypedArray tone = res.obtainTypedArray(R.array.tones);
 //	  TypedArray pron = res.obtainTypedArray(R.array.pronunciation);
 
 	for (int i=0; i<NUMCHARS; i++)    {
  	    int charId = icons.getResourceId(i, 0);
 
- 	    chinesechars.add(new Character(unicode.getString(i), charId, null, null, null));
+ 	    chinesechars.add(new Character(unicode.getString(i), charId, null, tone.getString(i), null));
         chineseIds.add(charId);
 	}
      TOTALCHARS = chinesechars.size();
@@ -145,6 +145,9 @@ public class ChineseView extends View {
 		return charindex;
 	}
 
+	public String getDefinition() {
+		return "definition string";
+	}
 
 	boolean doKeyDown(int keyCode, KeyEvent msg) {         
 				boolean okStart = false;
@@ -173,12 +176,13 @@ public class ChineseView extends View {
 
     @Override
     public void onDraw(Canvas canvas) {
-        final Character thc;
+        Character thc = new Character(null, 0, null, null,null);
+		int charID = thc.resId;
 
-	Paint p=new Paint();
-	p.setFilterBitmap(true);
-	thc = chinesechars.get(charindex);
-//	thc.charImage.draw(canvas);
+		Paint p=new Paint();
+		p.setFilterBitmap(true);
+		thc = chinesechars.get(charindex);
+//		thc.charImage.draw(canvas);
 
     
         Bitmap b=BitmapFactory.decodeResource(getResources(), chineseIds.get(charindex));
@@ -193,8 +197,8 @@ public class ChineseView extends View {
     	mTextPaint.setTextSize(50);
 
 //	    canvas.drawText(thc.charName, 300, 800, mTextPaint);
-//		canvas.drawText(thc.unicode, 10, 70, mTextSmPaint);
-//		canvas.drawText(thc.tone, 150, 370, mTextSmPaint);
+//		canvas.drawText(thc.unicode, 10, 70, mTextPaint);
+//		canvas.drawText(thc.tone, 450, 870, mTextPaint);
 //		canvas.drawText(thc.pronunciation, 300, 880, mTextPaint);
 
 	canvas.restore();

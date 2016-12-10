@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <array name="listArray">
-        <item>Kezar</item>
 
-        
-  </array>
-  <array name="listValues">
-          <item>SF</item>
-
-
-  </array>
   <array name="chargraphics">
      <item>@drawable/e02_1</item>
      <item>@drawable/e02_2</item>
@@ -399,7 +390,7 @@
 
 
    </array>
-    <array name="meaning1">
+    <array name="tones">
      <item>woman : girl : daughter</item>
      <item>e02_2</item>
      <item>e02_3</item>

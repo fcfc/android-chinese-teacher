@@ -36,6 +36,7 @@ public class ChineseTeacher extends Activity implements View.OnClickListener {
     /** A handle to the View */
     private ChineseView mChineseView;
     private TextView mTextView;
+    private TextView mTextView2;
 
     private Button   mButtonLeft;
     private Button   mButtonRight;
@@ -49,6 +50,7 @@ public class ChineseTeacher extends Activity implements View.OnClickListener {
     private Handler mHandler = new Handler();
     private long mStartTime;
     private int framenum = 1;
+    private String definition = "";
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -114,13 +116,15 @@ public class ChineseTeacher extends Activity implements View.OnClickListener {
         mChineseView.setOnClickListener(ChineseTeacher.this); 
         mChineseView.setOnTouchListener(gestureListener);
         mTextView = (TextView)findViewById(R.id.frame2);
-        
+        mTextView2 = (TextView)findViewById(R.id.frame3);
+
         Button mainLeft = (Button) findViewById(R.id.left);
         mainLeft.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
             	mChineseView.setCharacter(ChineseView.PREVIOUS);
             	framenum = mChineseView.getFramenum();
             	mTextView.setText(String.valueOf(framenum));
+                mTextView2.setText(mChineseView.getDefinition());
 
 
             }
@@ -131,6 +135,8 @@ public class ChineseTeacher extends Activity implements View.OnClickListener {
             	mChineseView.setCharacter(ChineseView.NEXT);
                 framenum = mChineseView.getFramenum();
             	mTextView.setText(String.valueOf(framenum));
+                mTextView2.setText(mChineseView.getDefinition());
+
 
             }
         });
