@@ -2,15 +2,35 @@
 <items version="2" >
 
     <item
+        is-multidex="false"
+        jar="/home/ice/Desktop/workspace/android-chinese-teacher/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6c45c2fbcde9b03d131b117913c16c0bea9a0bec">
+        <dex dex="/home/ice/Desktop/workspace/android-chinese-teacher/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_b60a1b24c27f106256500f59af64092cee7b6de3.jar" />
+    </item>
+    <item
         jar="/home/ice/Desktop/workspace/ChineseTeacher/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
+        optimize="true"
         revision="23.0.2"
         sha1="8301a95672f3c990bbc661e18769e64c6aaa49fd">
         <dex dex="/home/ice/Desktop/workspace/ChineseTeacher/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_6af9d6b84e4de12a814fde836976970f5f5a1fb8.jar" />
     </item>
     <item
+        is-multidex="false"
+        jar="/home/ice/Desktop/workspace/android-chinese-teacher/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="94a994b838161efc17b8baf595acda1e90aa0c75">
+        <dex dex="/home/ice/Desktop/workspace/android-chinese-teacher/app/build/intermediates/pre-dexed/debug/instant-run_7b53d02f06a6e9b57fd8f41e879bfc2a175f8f69.jar" />
+    </item>
+    <item
         jar="/home/ice/Desktop/workspace/ChineseTeacher/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
+        optimize="true"
         revision="23.0.2"
         sha1="0b19bd2849b07ff02e0d2dd44131ef7cdf1f2206">
         <dex dex="/home/ice/Desktop/workspace/ChineseTeacher/app/build/intermediates/pre-dexed/debug/instant-run_36efc150dd8647847379d12294e469b92b338c29.jar" />

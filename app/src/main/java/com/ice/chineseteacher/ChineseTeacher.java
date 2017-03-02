@@ -17,13 +17,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 
-/**
- * <ul>
- * <li>animating by calling invalidate() from draw()
- * <li>loading and drawing resources
- * <li>handling onPause() in an animation
- * </ul>
- */
+
 public class ChineseTeacher extends Activity implements View.OnClickListener {
     private static final int MENU_PAUSE = 1;
     private static final int MENU_RESUME = 2;
@@ -38,10 +32,7 @@ public class ChineseTeacher extends Activity implements View.OnClickListener {
     private TextView mTextView;
     private TextView mTextView2;
 
-    private Button   mButtonLeft;
-    private Button   mButtonRight;
-    private float initX;
-    private float initY;
+
     private static final int SWIPE_MIN_DISTANCE = 120;
     private static final int SWIPE_MAX_OFF_PATH = 250;
     private static final int SWIPE_THRESHOLD_VELOCITY = 200;
@@ -50,7 +41,6 @@ public class ChineseTeacher extends Activity implements View.OnClickListener {
     private Handler mHandler = new Handler();
     private long mStartTime;
     private int framenum = 1;
-    private String definition = "";
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -72,16 +62,16 @@ public class ChineseTeacher extends Activity implements View.OnClickListener {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
         case MENU_START:
-        	mTextView.setText("RANDOM MODE");
+        	mTextView.setText(R.string.on);
             startActivity(new Intent(this, Preferences.class));
             return true;
         case MENU_RANDOM:
             mChineseView.setFlashcard(false);
-        	mTextView.setText("RANDOM MODE");
+        	mTextView.setText(R.string.randommode);
             return true;
         case MENU_FLASHCARD:
             mChineseView.setFlashcard(true);
-        	mTextView.setText("FLASHCARD MODE");
+        	mTextView.setText(R.string.flashcardmode);
             return true;
         case MENU_SOUNDOFF:
             mChineseView.setSound("off");
@@ -100,11 +90,7 @@ public class ChineseTeacher extends Activity implements View.OnClickListener {
     {
     	return mTextView;
     }
-    /**
-     * Invoked when the Activity is created.
-     * 
-     * @param savedInstanceState a Bundle containing state
-     *        execution, or null if this is a new execution   */
+
     @SuppressWarnings("deprecation")
 	@Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -192,7 +178,7 @@ public class ChineseTeacher extends Activity implements View.OnClickListener {
 
     public boolean onDown(MotionEvent e)
     {
-    	mTextView.setText("DOWN");
+    	mTextView.setText(R.string.down);
         return true;
     }
 
@@ -202,7 +188,6 @@ public class ChineseTeacher extends Activity implements View.OnClickListener {
         super.onPause();
     }
 
-    /** * Notification that something is about to happen, */
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
@@ -214,7 +199,6 @@ public class ChineseTeacher extends Activity implements View.OnClickListener {
     }
 
     // Timer setup
-   
     OnClickListener mStartListener = new OnClickListener() {
     	   public void onClick(View v) {
     	            mStartTime = System.currentTimeMillis();
@@ -237,7 +221,7 @@ public class ChineseTeacher extends Activity implements View.OnClickListener {
     	       mHandler.postAtTime(this,
     	               start + (((minutes * 60) + seconds + 1) * 1000));
     	       if (seconds % 5 == 0)  {
-//    	           mThaiThread.setCharacter(ThaiThread.NEXT);
+//    	           mChineseThread.setCharacter(ChineseThread.NEXT);
 
     	       }
     	   }

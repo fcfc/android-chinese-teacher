@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/ice/Desktop/workspace/ChineseTeacher/app/build/intermediates/res/merged/debug/layout/list_item.xml",
-        "source": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/layout/list_item.xml"
+        "merged": "/home/ice/Desktop/workspace/android-chinese-teacher/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/layout/main.xml"
     },
     {
-        "merged": "/home/ice/Desktop/workspace/ChineseTeacher/app/build/intermediates/res/merged/debug/layout/main.xml",
-        "source": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/layout/main.xml"
+        "merged": "/home/ice/Desktop/workspace/android-chinese-teacher/app/build/intermediates/res/merged/debug/layout/list_item.xml",
+        "source": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/layout/list_item.xml"
     }
 ]

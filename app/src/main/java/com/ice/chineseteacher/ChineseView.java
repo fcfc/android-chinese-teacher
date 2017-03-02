@@ -29,6 +29,7 @@ public class ChineseView extends View {
     public static final int NEXT = 1;
     public static final int PREVIOUS = 2;
 	public static final int NUMCHARS = 170;
+	public static final int TEXTSIZE = 30;
 
 	public  int TOTALCHARS = 100;
     public static final boolean TIMER_OFF = false;
@@ -71,14 +72,14 @@ public class ChineseView extends View {
 			
 	mTextPaint = new Paint();
 	mTextPaint.setColor(Color.BLACK);
-	mTextPaint.setTextAlign(Paint.Align.CENTER);;
+	mTextPaint.setTextAlign(Paint.Align.CENTER);
 	mTextPaint.setAntiAlias(true);
-	mTextPaint.setTextSize(30);
+	mTextPaint.setTextSize(TEXTSIZE);
 
 	mTextSmPaint = new Paint();
 	mTextSmPaint.setColor(Color.BLACK);
 	mTextSmPaint.setAntiAlias(true);
-	mTextSmPaint.setTextAlign(Paint.Align.CENTER);;
+	mTextSmPaint.setTextAlign(Paint.Align.CENTER);
 
 	        
 	mframe = (TextView) findViewById(R.id.frame2);
@@ -88,7 +89,7 @@ public class ChineseView extends View {
 	  TypedArray tone = res.obtainTypedArray(R.array.tones);
 //	  TypedArray pron = res.obtainTypedArray(R.array.pronunciation);
 
-	for (int i=0; i<NUMCHARS; i++)    {
+	for (int i=0; i<icons.length(); i++)    {
  	    int charId = icons.getResourceId(i, 0);
 
  	    chinesechars.add(new Character(unicode.getString(i), charId, null, tone.getString(i), null));
@@ -149,42 +150,14 @@ public class ChineseView extends View {
 		return "definition string";
 	}
 
-	boolean doKeyDown(int keyCode, KeyEvent msg) {         
-				boolean okStart = false;
-				if (keyCode == KeyEvent.KEYCODE_DPAD_UP
-					|| keyCode == KeyEvent.KEYCODE_DPAD_DOWN
-					|| keyCode == KeyEvent.KEYCODE_S)
-					okStart = true;
-
-				boolean center = (keyCode == KeyEvent.KEYCODE_DPAD_UP);
-
-
-				return false;
-		}
-
-    boolean doKeyUp(int keyCode, KeyEvent msg) {
-	boolean handled = false;
-
-	if (keyCode == KeyEvent.KEYCODE_DPAD_CENTER|| keyCode == KeyEvent.KEYCODE_SPACE) {
-	handled = true;
-	} else if (keyCode == KeyEvent.KEYCODE_DPAD_LEFT || keyCode == KeyEvent.KEYCODE_Q || keyCode == KeyEvent.KEYCODE_DPAD_RIGHT || keyCode == KeyEvent.KEYCODE_W) {
-	handled = true;
-			    }
-	return handled;
-	}
-
 
     @Override
     public void onDraw(Canvas canvas) {
-        Character thc = new Character(null, 0, null, null,null);
-		int charID = thc.resId;
+
 
 		Paint p=new Paint();
 		p.setFilterBitmap(true);
-		thc = chinesechars.get(charindex);
-//		thc.charImage.draw(canvas);
-
-    
+		
         Bitmap b=BitmapFactory.decodeResource(getResources(), chineseIds.get(charindex));
         p.setColor(Color.RED);
         canvas.scale(0.6f, 0.75f);
@@ -194,7 +167,7 @@ public class ChineseView extends View {
 //	    ImageView i = new ImageView(this);
 //	    i.setImageResource(R.drawable.smiley);
 	        
-    	mTextPaint.setTextSize(50);
+    	mTextPaint.setTextSize(TEXTSIZE);
 
 //	    canvas.drawText(thc.charName, 300, 800, mTextPaint);
 //		canvas.drawText(thc.unicode, 10, 70, mTextPaint);

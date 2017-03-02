@@ -12,9 +12,7 @@
                         android:title="Stadium"
                         android:summary="Select Stadium"
                         android:key="listPref"
-                        android:defaultValue="digiGreen"
-                        android:entries="@array/listArray"
-                        android:entryValues="@array/listValues" />
+                        android:defaultValue="digiGreen" />
         </PreferenceCategory>
         <PreferenceCategory
                 android:title="Second Category">

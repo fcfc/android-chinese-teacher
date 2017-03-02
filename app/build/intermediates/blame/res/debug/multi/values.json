@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/ice/Desktop/workspace/ChineseTeacher/app/build/intermediates/res/merged/debug/values/values.xml",
+        "outputFile": "/home/ice/Desktop/workspace/android-chinese-teacher/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -12,15 +12,7 @@
                     "endOffset": 6043
                 },
                 "from": {
-                    "file": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/values/arrays.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 2,
-                        "startOffset": 195,
-                        "endLine": 187,
-                        "endColumn": 11,
-                        "endOffset": 6183
-                    }
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/arrays.xml"
                 }
             },
             {
@@ -28,158 +20,206 @@
                     "startLine": 178,
                     "startColumn": 4,
                     "startOffset": 6048,
-                    "endLine": 182,
-                    "endColumn": 10,
-                    "endOffset": 6120
-                },
-                "from": {
-                    "file": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/values/arrays.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 2,
-                        "startOffset": 53,
-                        "endLine": 6,
-                        "endColumn": 10,
-                        "endOffset": 125
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 183,
-                    "startColumn": 4,
-                    "startOffset": 6125,
-                    "endLine": 187,
-                    "endColumn": 10,
-                    "endOffset": 6189
-                },
-                "from": {
-                    "file": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/values/arrays.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 2,
-                        "startOffset": 128,
-                        "endLine": 11,
-                        "endColumn": 10,
-                        "endOffset": 192
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 188,
-                    "startColumn": 4,
-                    "startOffset": 6194,
-                    "endLine": 399,
+                    "endLine": 389,
                     "endColumn": 11,
-                    "endOffset": 11281
+                    "endOffset": 11132
                 },
                 "from": {
-                    "file": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/values/arrays.xml",
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/arrays.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 390,
+                    "startColumn": 4,
+                    "startOffset": 11137,
+                    "endLine": 601,
+                    "endColumn": 11,
+                    "endOffset": 16202
+                },
+                "from": {
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/arrays.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 602,
+                    "startColumn": 4,
+                    "startOffset": 16207,
+                    "endColumn": 39,
+                    "endOffset": 16242
+                },
+                "from": {
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 603,
+                    "startColumn": 4,
+                    "startOffset": 16247,
+                    "endColumn": 51,
+                    "endOffset": 16294
+                },
+                "from": {
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 604,
+                    "startColumn": 4,
+                    "startOffset": 16299,
+                    "endColumn": 40,
+                    "endOffset": 16335
+                },
+                "from": {
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 605,
+                    "startColumn": 4,
+                    "startOffset": 16340,
+                    "endColumn": 56,
+                    "endOffset": 16392
+                },
+                "from": {
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 401,
+                        "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 11260,
-                        "endLine": 612,
-                        "endColumn": 11,
-                        "endOffset": 16347
+                        "startOffset": 855,
+                        "endColumn": 56,
+                        "endOffset": 907
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 400,
+                    "startLine": 606,
                     "startColumn": 4,
-                    "startOffset": 11286,
-                    "endLine": 611,
-                    "endColumn": 11,
-                    "endOffset": 16351
+                    "startOffset": 16397,
+                    "endColumn": 43,
+                    "endOffset": 16436
                 },
                 "from": {
-                    "file": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/values/arrays.xml",
-                    "position": {
-                        "startLine": 189,
-                        "startColumn": 2,
-                        "startOffset": 6190,
-                        "endLine": 400,
-                        "endColumn": 11,
-                        "endOffset": 11255
-                    }
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 607,
+                    "startColumn": 4,
+                    "startOffset": 16441,
+                    "endColumn": 34,
+                    "endOffset": 16471
+                },
+                "from": {
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 608,
+                    "startColumn": 4,
+                    "startOffset": 16476,
+                    "endColumn": 42,
+                    "endOffset": 16514
+                },
+                "from": {
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 609,
+                    "startColumn": 4,
+                    "startOffset": 16519,
+                    "endColumn": 52,
+                    "endOffset": 16567
+                },
+                "from": {
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 610,
+                    "startColumn": 4,
+                    "startOffset": 16572,
+                    "endColumn": 42,
+                    "endOffset": 16610
+                },
+                "from": {
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 611,
+                    "startColumn": 4,
+                    "startOffset": 16615,
+                    "endColumn": 44,
+                    "endOffset": 16655
+                },
+                "from": {
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 612,
                     "startColumn": 4,
-                    "startOffset": 16356,
-                    "endColumn": 39,
-                    "endOffset": 16391
+                    "startOffset": 16660,
+                    "endColumn": 46,
+                    "endOffset": 16702
                 },
                 "from": {
-                    "file": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 39,
-                        "endOffset": 90
-                    }
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 613,
                     "startColumn": 4,
-                    "startOffset": 16396,
-                    "endColumn": 51,
-                    "endOffset": 16443
+                    "startOffset": 16707,
+                    "endColumn": 44,
+                    "endOffset": 16747
                 },
                 "from": {
-                    "file": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 139,
-                        "endColumn": 51,
-                        "endOffset": 186
-                    }
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 614,
                     "startColumn": 4,
-                    "startOffset": 16448,
-                    "endColumn": 40,
-                    "endOffset": 16484
+                    "startOffset": 16752,
+                    "endColumn": 42,
+                    "endOffset": 16790
                 },
                 "from": {
-                    "file": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 696,
-                        "endColumn": 46,
-                        "endOffset": 738
-                    }
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 615,
                     "startColumn": 4,
-                    "startOffset": 16489,
-                    "endColumn": 43,
-                    "endOffset": 16528
+                    "startOffset": 16795,
+                    "endColumn": 35,
+                    "endOffset": 16826
                 },
                 "from": {
-                    "file": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/values/strings.xml",
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 3,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 95,
-                        "endColumn": 43,
-                        "endOffset": 134
+                        "startOffset": 591,
+                        "endColumn": 35,
+                        "endOffset": 622
                     }
                 }
             },
@@ -187,18 +227,18 @@
                 "to": {
                     "startLine": 616,
                     "startColumn": 4,
-                    "startOffset": 16533,
-                    "endColumn": 34,
-                    "endOffset": 16563
+                    "startOffset": 16831,
+                    "endColumn": 33,
+                    "endOffset": 16860
                 },
                 "from": {
-                    "file": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/values/strings.xml",
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 568,
-                        "endColumn": 40,
-                        "endOffset": 604
+                        "startOffset": 557,
+                        "endColumn": 33,
+                        "endOffset": 586
                     }
                 }
             },
@@ -206,18 +246,18 @@
                 "to": {
                     "startLine": 617,
                     "startColumn": 4,
-                    "startOffset": 16568,
-                    "endColumn": 42,
-                    "endOffset": 16606
+                    "startOffset": 16865,
+                    "endColumn": 50,
+                    "endOffset": 16911
                 },
                 "from": {
-                    "file": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/values/strings.xml",
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 415,
-                        "endColumn": 42,
-                        "endOffset": 453
+                        "startOffset": 804,
+                        "endColumn": 50,
+                        "endOffset": 850
                     }
                 }
             },
@@ -225,234 +265,75 @@
                 "to": {
                     "startLine": 618,
                     "startColumn": 4,
-                    "startOffset": 16611,
-                    "endColumn": 52,
-                    "endOffset": 16659
+                    "startOffset": 16916,
+                    "endColumn": 35,
+                    "endOffset": 16947
                 },
                 "from": {
-                    "file": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 459,
-                        "endColumn": 52,
-                        "endOffset": 507
-                    }
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 619,
                     "startColumn": 4,
-                    "startOffset": 16664,
-                    "endColumn": 42,
-                    "endOffset": 16702
+                    "startOffset": 16952,
+                    "endColumn": 39,
+                    "endOffset": 16987
                 },
                 "from": {
-                    "file": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 513,
-                        "endColumn": 42,
-                        "endOffset": 551
-                    }
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 620,
                     "startColumn": 4,
-                    "startOffset": 16707,
-                    "endColumn": 44,
-                    "endOffset": 16747
+                    "startOffset": 16992,
+                    "endColumn": 38,
+                    "endOffset": 17026
                 },
                 "from": {
-                    "file": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 321,
-                        "endColumn": 44,
-                        "endOffset": 361
-                    }
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 621,
                     "startColumn": 4,
-                    "startOffset": 16752,
-                    "endColumn": 46,
-                    "endOffset": 16794
+                    "startOffset": 17031,
+                    "endLine": 623,
+                    "endColumn": 12,
+                    "endOffset": 17119
                 },
                 "from": {
-                    "file": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 367,
-                        "endColumn": 46,
-                        "endOffset": 409
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 622,
-                    "startColumn": 4,
-                    "startOffset": 16799,
-                    "endColumn": 44,
-                    "endOffset": 16839
-                },
-                "from": {
-                    "file": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 229,
-                        "endColumn": 44,
-                        "endOffset": 269
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 623,
-                    "startColumn": 4,
-                    "startOffset": 16844,
-                    "endColumn": 42,
-                    "endOffset": 16882
-                },
-                "from": {
-                    "file": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 275,
-                        "endColumn": 42,
-                        "endOffset": 313
-                    }
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/styles.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 624,
                     "startColumn": 4,
-                    "startOffset": 16887,
-                    "endColumn": 35,
-                    "endOffset": 16918
-                },
-                "from": {
-                    "file": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 609,
-                        "endColumn": 41,
-                        "endOffset": 646
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 625,
-                    "startColumn": 4,
-                    "startOffset": 16923,
-                    "endColumn": 39,
-                    "endOffset": 16958
-                },
-                "from": {
-                    "file": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 1,
-                        "startOffset": 188,
-                        "endColumn": 36,
-                        "endOffset": 223
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 626,
-                    "startColumn": 4,
-                    "startOffset": 16963,
-                    "endColumn": 38,
-                    "endOffset": 16997
-                },
-                "from": {
-                    "file": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 651,
-                        "endColumn": 44,
-                        "endOffset": 691
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 627,
-                    "startColumn": 4,
-                    "startOffset": 17002,
-                    "endLine": 629,
+                    "startOffset": 17124,
+                    "endLine": 627,
                     "endColumn": 12,
-                    "endOffset": 17090
+                    "endOffset": 17259
                 },
                 "from": {
-                    "file": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/values/styles.xml",
-                    "position": {
-                        "startLine": 23,
-                        "startColumn": 4,
-                        "startOffset": 946,
-                        "endLine": 25,
-                        "endColumn": 12,
-                        "endOffset": 1034
-                    }
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/styles.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 630,
+                    "startLine": 628,
                     "startColumn": 4,
-                    "startOffset": 17095,
-                    "endLine": 633,
+                    "startOffset": 17264,
+                    "endLine": 631,
                     "endColumn": 12,
-                    "endOffset": 17230
+                    "endOffset": 17401
                 },
                 "from": {
-                    "file": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/values/styles.xml",
-                    "position": {
-                        "startLine": 27,
-                        "startColumn": 4,
-                        "startOffset": 1044,
-                        "endLine": 30,
-                        "endColumn": 12,
-                        "endOffset": 1179
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 634,
-                    "startColumn": 4,
-                    "startOffset": 17235,
-                    "endLine": 637,
-                    "endColumn": 12,
-                    "endOffset": 17372
-                },
-                "from": {
-                    "file": "/home/ice/Desktop/workspace/ChineseTeacher/app/src/main/res/values/styles.xml",
-                    "position": {
-                        "startLine": 32,
-                        "startColumn": 4,
-                        "startOffset": 1189,
-                        "endLine": 35,
-                        "endColumn": 12,
-                        "endOffset": 1326
-                    }
+                    "file": "/home/ice/Desktop/workspace/android-chinese-teacher/app/src/main/res/values/styles.xml"
                 }
             }
         ]

@@ -1,15 +1,15 @@
 package com.ice.chineseteacher;
 
+// Class for Chinese Character
 
 public class Character {
-    public String unicode;
-    public int resId;
-    public String charName;
-    public String tone;
-    public String pronunciation;
+    private String unicode;
+    private int resId;
+    private String charName;
+    private String tone;
+    private String pronunciation;
     
 	public Character(String string, int i, String s2, String s3, String s4) {
-		// Auto-generated constructor 
 		unicode = string;
 	    resId = i;
 	    charName = s2;

@@ -3,8 +3,10 @@
     abi="armeabi-v7a,armeabi"
     api-level="19"
     density="tvdpi"
-    format="7"
-    timestamp="89708304662148" >
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="61588747890661"
+    token="-6978126300769053871" >
 
     <task
         name="javac"
@@ -19,14 +21,13 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="/home/ice/Desktop/workspace/ChineseTeacher/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
-
-    <build timestamp="89708304662148" >
+    <build
+        timestamp="61569935847067"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/ice/Desktop/workspace/ChineseTeacher/app/build/outputs/apk/app-debug.apk"
+            location="/home/ice/Desktop/workspace/android-chinese-teacher/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
+    <build timestamp="61588747890661" />
 
 </instant-run>

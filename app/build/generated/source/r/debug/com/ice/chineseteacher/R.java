@@ -10,10 +10,8 @@ package com.ice.chineseteacher;
 public final class R {
     public static final class array {
         public static final int chargraphics=0x7f050000;
-        public static final int listArray=0x7f050001;
-        public static final int listValues=0x7f050002;
-        public static final int meaning1=0x7f050003;
-        public static final int unicode=0x7f050004;
+        public static final int tones=0x7f050001;
+        public static final int unicode=0x7f050002;
     }
     public static final class attr {
     }
@@ -253,16 +251,17 @@ public final class R {
         public static final int test=0x7f0200e5;
     }
     public static final class id {
-        public static final int MENU_INFO=0x7f0a0009;
-        public static final int MENU_MY_LOCATION=0x7f0a0008;
-        public static final int MENU_SEARCH=0x7f0a0007;
-        public static final int MENU_SEND=0x7f0a0006;
-        public static final int MENU_UPLOAD=0x7f0a0005;
-        public static final int MENU_VIEW=0x7f0a0004;
+        public static final int MENU_INFO=0x7f0a000a;
+        public static final int MENU_MY_LOCATION=0x7f0a0009;
+        public static final int MENU_SEARCH=0x7f0a0008;
+        public static final int MENU_SEND=0x7f0a0007;
+        public static final int MENU_UPLOAD=0x7f0a0006;
+        public static final int MENU_VIEW=0x7f0a0005;
         public static final int chineseview=0x7f0a0000;
-        public static final int frame=0x7f0a0003;
+        public static final int frame2=0x7f0a0002;
+        public static final int frame3=0x7f0a0004;
         public static final int left=0x7f0a0001;
-        public static final int right=0x7f0a0002;
+        public static final int right=0x7f0a0003;
     }
     public static final class layout {
         public static final int list_item=0x7f030000;
@@ -274,18 +273,22 @@ public final class R {
     public static final class string {
         public static final int app_name=0x7f070000;
         public static final int down=0x7f070001;
-        public static final int hello=0x7f070002;
-        public static final int left=0x7f070003;
-        public static final int menu_easy=0x7f070004;
-        public static final int menu_flashcard=0x7f070005;
-        public static final int menu_hard=0x7f070006;
-        public static final int menu_pause=0x7f070007;
-        public static final int menu_resume=0x7f070008;
-        public static final int menu_start=0x7f070009;
-        public static final int menu_stop=0x7f07000a;
-        public static final int right=0x7f07000b;
-        public static final int sound=0x7f07000c;
-        public static final int up=0x7f07000d;
+        public static final int flashcardmode=0x7f070002;
+        public static final int hello=0x7f070003;
+        public static final int left=0x7f070004;
+        public static final int menu_easy=0x7f070005;
+        public static final int menu_flashcard=0x7f070006;
+        public static final int menu_hard=0x7f070007;
+        public static final int menu_pause=0x7f070008;
+        public static final int menu_resume=0x7f070009;
+        public static final int menu_start=0x7f07000a;
+        public static final int menu_stop=0x7f07000b;
+        public static final int off=0x7f07000c;
+        public static final int on=0x7f07000d;
+        public static final int randommode=0x7f07000e;
+        public static final int right=0x7f07000f;
+        public static final int sound=0x7f070010;
+        public static final int up=0x7f070011;
     }
     public static final class style {
         public static final int ButtonText=0x7f080000;
